@@ -22,7 +22,7 @@ def create_hourly_orders_df(df):
     return hourly_orders_df
 
 # Load cleaned data
-merged_df = pd.read_csv("https://raw.githubusercontent.com/eko31rj/proyek_analisis_data_dicoding_eko31rj/refs/heads/main/dashboard/cleaned_data/merged_data_cleaned.csv")
+merged_df = pd.read_csv("https://raw.githubusercontent.com/eko31rj/proyek_analisis_data_dicoding_eko31rj/refs/heads/main/cleaned_data/merged_data_cleaned.csv")
 
 # Convert to datetime
 datetime_columns = ["order_approved_at", "order_delivered_carrier_date", "order_delivered_customer_date", "order_estimated_delivery_date", "order_purchase_timestamp", "shipping_limit_date"]
